@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.background-container{
+    background-image: url(images/5.1_5lyavs59mazofnb55z6znq.png);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+.nav__logo {
+    width: 80px;
+    object-fit: contain;
+  }
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* background-color: #111; */
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+  }
+.login-container {
+    text-align: center;
+    padding: 20px;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background-color: rgba(206, 204, 204, 0.8);
+    width: 80%;
+    max-width: 300px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.netflix-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff0c00;
+}
+
+.separator {
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #e50914;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    margin: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.language-change select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
